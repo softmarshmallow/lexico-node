@@ -2,6 +2,14 @@
 Unofficial lexico api for node, written in ts.
 
 
+## installation
+```shell
+yarn add lexico-node
+# or if you prefer npm..
+
+npm install lexico-node --save
+```
+
 ## for testing. (do not use for commercial usage, only for testing purpose)
 ```typescript
 import { scrap } from "lexico-node"
