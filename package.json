@@ -1,9 +1,10 @@
 {
   "name": "lexico-node",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": "https://github.com/softmarshmallow/lexico-node",
   "scripts": {
     "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
