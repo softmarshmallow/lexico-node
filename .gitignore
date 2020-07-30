@@ -3,3 +3,7 @@ node_modules
 .env
 credentials/
 /data
+/dist
+.idea
+yarn.lock
+package-lock.json

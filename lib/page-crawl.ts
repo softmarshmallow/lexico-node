@@ -1,7 +1,7 @@
-import {DEMO_PAGE} from "./test";
+import { DEMO_PAGE } from "./test";
 
 import * as cheerio from "cheerio";
-import Axios  from "axios"
+import Axios from "axios"
 
 const axios = Axios.create({
     baseURL: "https://www.lexico.com/definition"
@@ -12,13 +12,13 @@ const inT = "swish"
 const SELECTOR_TOKEN = 'header > h2 > span'
 
 
-async function parse(){
+async function parse() {
 
     const r = await axios.get(`/${inT}`)
     const raw = r.data
 
     const doc = cheerio.load(raw)
-// console.log(doc)
+    // console.log(doc)
     const token = doc(SELECTOR_TOKEN).text()
     // #content > div.lex-container > div.main-content > div > div > div > div > section:nth-child(3) > h3 > span
     const pos = doc('#content > div.lex-container > div.main-content > div > div > div > div > section.gramb > h3 > span').text()

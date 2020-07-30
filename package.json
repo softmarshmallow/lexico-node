@@ -1,9 +1,11 @@
 {
   "name": "lexico-node",
-  "version": "1.0.0",
+  "version": "0.0.5",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "scripts": {
+    "prepublish": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
