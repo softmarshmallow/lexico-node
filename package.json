@@ -1,6 +1,6 @@
 {
   "name": "lexico-node",
-  "version": "0.0.5",
+  "version": "0.1.6",
   "description": "",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -13,8 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
-    "cheerio": "^1.0.0-rc.3",
-    "dotenv": "^8.2.0"
+    "cheerio": "^1.0.0-rc.3"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.21",
